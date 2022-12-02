@@ -59,7 +59,10 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10
 			]
 		}
 	],
@@ -99,7 +102,10 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10
 			]
 		}
 	],
@@ -151,6 +157,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "basetype/0209-cin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operator/0301-baseOperator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operator/0302-bijiao.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operator/0303-luoji.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

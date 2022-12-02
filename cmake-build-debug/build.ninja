@@ -94,6 +94,24 @@ build CMakeFiles/studyC_.dir/basetype/0209-cin.cpp.o: CXX_COMPILER__studyC__Debu
   OBJECT_DIR = CMakeFiles/studyC_.dir
   OBJECT_FILE_DIR = CMakeFiles/studyC_.dir/basetype
 
+build CMakeFiles/studyC_.dir/operator/0301-baseOperator.cpp.o: CXX_COMPILER__studyC__Debug /Users/eric/CLionProjects/studyC+/operator/0301-baseOperator.cpp || cmake_object_order_depends_target_studyC_
+  DEP_FILE = CMakeFiles/studyC_.dir/operator/0301-baseOperator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/studyC_.dir
+  OBJECT_FILE_DIR = CMakeFiles/studyC_.dir/operator
+
+build CMakeFiles/studyC_.dir/operator/0302-bijiao.cpp.o: CXX_COMPILER__studyC__Debug /Users/eric/CLionProjects/studyC+/operator/0302-bijiao.cpp || cmake_object_order_depends_target_studyC_
+  DEP_FILE = CMakeFiles/studyC_.dir/operator/0302-bijiao.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/studyC_.dir
+  OBJECT_FILE_DIR = CMakeFiles/studyC_.dir/operator
+
+build CMakeFiles/studyC_.dir/operator/0303-luoji.cpp.o: CXX_COMPILER__studyC__Debug /Users/eric/CLionProjects/studyC+/operator/0303-luoji.cpp || cmake_object_order_depends_target_studyC_
+  DEP_FILE = CMakeFiles/studyC_.dir/operator/0303-luoji.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/studyC_.dir
+  OBJECT_FILE_DIR = CMakeFiles/studyC_.dir/operator
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target studyC_
@@ -102,7 +120,7 @@ build CMakeFiles/studyC_.dir/basetype/0209-cin.cpp.o: CXX_COMPILER__studyC__Debu
 #############################################
 # Link the executable studyC_
 
-build studyC_: CXX_EXECUTABLE_LINKER__studyC__Debug CMakeFiles/studyC_.dir/a.cpp.o CMakeFiles/studyC_.dir/int.cpp.o CMakeFiles/studyC_.dir/basetype/0204-float.cpp.o CMakeFiles/studyC_.dir/basetype/0205-char.cpp.o CMakeFiles/studyC_.dir/basetype/0206-escapeCharacter.cpp.o CMakeFiles/studyC_.dir/basetype/0207-string.cpp.o CMakeFiles/studyC_.dir/basetype/0208-bool.cpp.o CMakeFiles/studyC_.dir/basetype/0209-cin.cpp.o
+build studyC_: CXX_EXECUTABLE_LINKER__studyC__Debug CMakeFiles/studyC_.dir/a.cpp.o CMakeFiles/studyC_.dir/int.cpp.o CMakeFiles/studyC_.dir/basetype/0204-float.cpp.o CMakeFiles/studyC_.dir/basetype/0205-char.cpp.o CMakeFiles/studyC_.dir/basetype/0206-escapeCharacter.cpp.o CMakeFiles/studyC_.dir/basetype/0207-string.cpp.o CMakeFiles/studyC_.dir/basetype/0208-bool.cpp.o CMakeFiles/studyC_.dir/basetype/0209-cin.cpp.o CMakeFiles/studyC_.dir/operator/0301-baseOperator.cpp.o CMakeFiles/studyC_.dir/operator/0302-bijiao.cpp.o CMakeFiles/studyC_.dir/operator/0303-luoji.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/studyC_.dir
   POST_BUILD = :
