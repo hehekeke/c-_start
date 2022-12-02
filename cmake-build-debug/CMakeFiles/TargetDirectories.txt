@@ -1,0 +1,3 @@
+/Users/eric/CLionProjects/studyC+/cmake-build-debug/CMakeFiles/studyC_.dir
+/Users/eric/CLionProjects/studyC+/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eric/CLionProjects/studyC+/cmake-build-debug/CMakeFiles/rebuild_cache.dir

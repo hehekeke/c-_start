@@ -1,0 +1,23 @@
+# ninja log v5
+1	208	1669953117171776823	CMakeFiles/studyC_.dir/0209-cin.cpp.o	a0908c7cd77d0a95
+208	237	1669953117202175308	studyC_	59b0272f9332597b
+1	212	1669882824935572934	CMakeFiles/studyC_.dir/basetype/int.cpp.o	11642e85c70c6d21
+1	242	1669884203148698748	CMakeFiles/studyC_.dir/int.cpp.o	a855242a03dd29fd
+1	205	1669882916842323815	CMakeFiles/studyC_.dir/basetype/main.cpp.o	93b6e00b9f4e7420
+1	209	1669883462737047885	CMakeFiles/studyC_.dir/a.cpp.o	5cb91cd46cbd4c21
+1	207	1669883060094172771	CMakeFiles/studyC_.dir/main.cpp.o	eb6153df3f63649c
+1	213	1669952198584245318	CMakeFiles/studyC_.dir/0205-char.cpp.o	26ea7458140df49e
+2	214	1669952559025939639	CMakeFiles/studyC_.dir/0206-escapeCharacter.cpp.o	4d217337ddc46c56
+1	234	1669884266727598968	CMakeFiles/studyC_.dir/float.cpp.o	b34a5c35b53594ad
+1	212	1669884547857647096	CMakeFiles/studyC_.dir/0204-float.cpp.o	7e1ca493798a0b9c
+0	37	1669953274846672530	build.ninja	e7f1b8ce9fccab0b
+1	218	1669952686580974200	CMakeFiles/studyC_.dir/0207-string.cpp.o	c07a186eeba24fc
+2	215	1669953074377073431	CMakeFiles/studyC_.dir/0208-bool.cpp.o	b1278df37684cbe0
+0	36	1669953274846672530	build.ninja	e7f1b8ce9fccab0b
+1	224	1669953275074473545	CMakeFiles/studyC_.dir/basetype/0205-char.cpp.o	a5651d0a65e4215c
+1	225	1669953275075035199	CMakeFiles/studyC_.dir/basetype/0204-float.cpp.o	593cb8c54bec07e2
+1	225	1669953275074319591	CMakeFiles/studyC_.dir/basetype/0206-escapeCharacter.cpp.o	4b2f0ef1b5dd1720
+2	225	1669953275074318882	CMakeFiles/studyC_.dir/basetype/0209-cin.cpp.o	9c7228078012083
+1	225	1669953275075930220	CMakeFiles/studyC_.dir/basetype/0207-string.cpp.o	73b86dee69b9634f
+2	225	1669953275075130405	CMakeFiles/studyC_.dir/basetype/0208-bool.cpp.o	b17f2bd07aac7f9a
+226	255	1669953275108837502	studyC_	1a24995f78adc416
