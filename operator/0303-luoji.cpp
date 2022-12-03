@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using  namespace std ;
-int main(){
+int main0303(){
     // 逻辑运算符  ！   && ||
     cout << "逻辑运算符 : ！ " << endl;
     int a = 10 ;
