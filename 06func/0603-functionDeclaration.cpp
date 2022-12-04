@@ -12,7 +12,7 @@ int max(int a ,int b) {
     return  a > b ? a : b ;
 }
 
-int main() {
+int main0603() {
     int num2 = max(1,2) ;
     cout << "num2 = " << num2 <<  endl ;
     swap(1,2);
