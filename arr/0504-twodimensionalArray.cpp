@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using  namespace std ;
-int main(){
+int main0504(){
     // 二维数组的定义方式
     int arr1[2][3];
     arr1[0][0] = 1;
