@@ -9,7 +9,7 @@ struct Student{
     int  source ;
 
 };
-int main(){
+int main0802(){
      Student arr[] = {
              {"张三",10,20},
              {"张4",40,40},
