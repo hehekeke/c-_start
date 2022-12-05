@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using namespace std;
-int main(){
+int main0701(){
     int a = 1 ;
 
     int * p ;
