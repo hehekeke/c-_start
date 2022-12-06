@@ -33,7 +33,7 @@ void printInfo(struct  Teacher tAarry[] , int len){
         }
     }
 }
-int main(){
+int main0807(){
     struct Teacher tArray[3];
     allocatorSpace(tArray,3);
     printInfo(tArray,3);
