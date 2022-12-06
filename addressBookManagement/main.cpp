@@ -42,7 +42,7 @@ void showMenu(){
     cout << "***  0、退出联系人 ***" << endl;
     cout << "********************" << endl;
 }
-int main(){
+int mainAdd(){
     AddressBooks ads ;
     ads.size = 0;
     int select = 0;
