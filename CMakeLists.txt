@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.21)
 project(studyC_)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(studyC_ a.cpp int.cpp basetype/0204-float.cpp basetype/0205-char.cpp basetype/0206-escapeCharacter.cpp basetype/0207-string.cpp basetype/0208-bool.cpp basetype/0209-cin.cpp operator/0301-baseOperator.cpp operator/0302-bijiao.cpp operator/0303-luoji.cpp)
+add_executable(studyC_ a.cpp int.cpp basetype/0204-float.cpp basetype/0205-char.cpp basetype/0206-escapeCharacter.cpp basetype/0207-string.cpp basetype/0208-bool.cpp basetype/0209-cin.cpp operator/0301-baseOperator.cpp operator/0302-bijiao.cpp operator/0303-luoji.cpp processControl/0401-if.cpp processControl/0402-ternaryOperator.cpp processControl/0403-switch.cpp processControl/0404-while.cpp processControl/0405-narcissusNumber.cpp processControl/0406-for.cpp processControl/0407-continue.cpp processControl/0408-goto.cpp arr/0501-initArr.cpp arr/0502-oneDimensionalArray.cpp arr/0503-bubbleSort.cpp arr/0504-twodimensionalArray.cpp 06func/0601-add.cpp 06func/0602-funcs.cpp 06func/0603-functionDeclaration.cpp 06func/functionFileCompilation/swap.cpp 06func/functionFileCompilation/swap.h 07pointer/0701-init.cpp 07pointer/0702-null-pointer.cpp 07pointer/0703-const-pointer.cpp 07pointer/0704-pointer-arr.cpp 07pointer/0705.cpp 07pointer/0706-pointer-bubbleSort.cpp 08struct/0801-init.cpp 08struct/0802-struct-arr.cpp 08struct/0803-struct-pointer.cpp 08struct/0804-struct-nest.cpp 08struct/0805-struct-as_funcParam.cpp 08struct/0806-struct-const.cpp 08struct/0807-demo.cpp 08struct/0808-demo2.cpp addressBookManagement/main.cpp "内存模型/01 全局区.cpp" "内存模型/02 栈区.cpp" "内存模型/03 堆区.cpp" "内存模型/04 new.cpp")
