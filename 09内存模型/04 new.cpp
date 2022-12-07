@@ -38,7 +38,7 @@ void test0402(){
 
 
 // 2、 在堆区利用new开辟新的数组
-int main(){
+int main0904 (){
     test04();
     test0402();
     return 0;
