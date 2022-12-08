@@ -29,7 +29,7 @@ void func1103_1(double a ,int b  ){
 void func1103_3(){
     cout << " func 的调用" << endl;
 }
-int main(){
+int main1103(){
     func1103_1();
     func1103_1(1);
     func1103_1(3.1415);
