@@ -14,7 +14,9 @@ file (GLOB files test/*.cpp)
 # 如果你只有两层目录的话
 file (GLOB files *.cpp */*.cpp)
 # 同理，三层的话
-file (GLOB files *.cpp */*.cpp */*/*.cpp)
+file (GLOB files *.cpp */*.cpp  */*/*.cpp)
+
+file (GLOB files *.cpp */*.cpp  */*/*.cpp */*/*/*.cpp)
 
 foreach (file ${files})
     string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
