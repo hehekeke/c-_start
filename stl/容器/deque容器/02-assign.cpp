@@ -23,17 +23,19 @@ void test01(){
     }
     printDeque(d1);
 
-    deque<int> d2(d1.begin(),d1.end());
+    // = 赋值
+    deque<int> d2 = d1;
     printDeque(d2);
 
-    deque<int> d3(10,100);
+    // assign 赋值
+    deque<int> d3;
+    d3.assign(d1.begin(),d1.end());
     printDeque(d3);
 
-    deque<int> d4(d3);
+    deque<int> d4;
+    d4.assign(10,100);
     printDeque(d4);
 }
-
-
 
 int main(){
     test01();
