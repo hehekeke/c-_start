@@ -19,21 +19,35 @@ void test01() {
   s.insert(2);
   s.insert(3);
   s.insert(4);
-  // set 容器的特点：
-  // 所有插入的元素插入的时候 ，自动排序了
-  // set 不允许插入重复的值
-  printSet(s); // 1 2 3 4
+  if (s.empty()) {
+    cout << "set is empty" << endl;
+  } else {
+    cout << "set size is :" << s.size() << endl; //  set size is :4
+  }
+}
 
-  // 拷贝构造函数
-  set<int> s2(s);
-  printSet(s2); // 1 2 3 4
+void swap() {
+  set<int> s;
+  s.insert(1);
+  s.insert(2);
+  s.insert(3);
+  s.insert(4);
 
-  set<int> s3;
-  s3 = s2;
-  printSet(s3); // 1 2 3 4
+  set<int> s2;
+  s2.insert(10);
+  s2.insert(20);
+  s2.insert(30);
+  s2.insert(40);
+
+  printSet(s);
+  printSet(s2);
+  s.swap(s2);
+  printSet(s);
+  printSet(s2);
 }
 
 int main() {
-  test01();
+  //  test01();
+  swap();
   return 0;
 }

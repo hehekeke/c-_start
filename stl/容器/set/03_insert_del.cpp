@@ -19,35 +19,21 @@ void test01() {
   s.insert(2);
   s.insert(3);
   s.insert(4);
-  if (s.empty()) {
-    cout << "set is empty" << endl;
-  } else {
-    cout << "set size is :" << s.size() << endl; //  set size is :4
-  }
-}
+  printSet(s); //  1 2 3 4
+  // 删除
+  s.erase(s.begin());
+  printSet(s); // 2 3 4
 
-void swap() {
-  set<int> s;
-  s.insert(1);
-  s.insert(2);
-  s.insert(3);
-  s.insert(4);
+  s.erase(3);
+  printSet(s); // 2 4
 
-  set<int> s2;
-  s2.insert(10);
-  s2.insert(20);
-  s2.insert(30);
-  s2.insert(40);
-
-  printSet(s);
-  printSet(s2);
-  s.swap(s2);
-  printSet(s);
-  printSet(s2);
+  // 清空
+  s.erase(s.begin(), s.end());
+  s.clear();
+  printSet(s); //
 }
 
 int main() {
-  //  test01();
-  swap();
+  test01();
   return 0;
 }

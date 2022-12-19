@@ -20,17 +20,17 @@ void test01() {
   s.insert(3);
   s.insert(4);
   printSet(s); //  1 2 3 4
-  // 删除
-  s.erase(s.begin());
-  printSet(s); // 2 3 4
 
-  s.erase(3);
-  printSet(s); // 2 4
+  set<int>::iterator pos = s.find(3);
+  if (pos != s.end()) {
+    cout << "找到元素了：" << *pos << endl;
+  } else {
+    cout << "没找到元素" << endl;
+  }
 
-  // 清空
-  s.erase(s.begin(), s.end());
-  s.clear();
-  printSet(s); //
+  // 统计30的个数
+  int num = s.count(1);
+  cout << "num = " << num << endl;
 }
 
 int main() {
