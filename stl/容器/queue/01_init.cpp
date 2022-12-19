@@ -5,22 +5,25 @@
 #include <iostream>
 using namespace std;
 
-#include "stack"
+#include "queue"
 // 初始化操作
 void test01() {
-  stack<int> s;
+  queue<int> q;
+
   // 入栈
-  s.push(1);
-  s.push(2);
-  s.push(3);
-  s.push(4);
-  cout << "s size:" << s.size() << endl;
+  q.push(1);
+  q.push(2);
+  q.push(3);
+  q.push(4);
+  cout << "q size:" << q.size() << endl;
   // 出栈
-  while (!s.empty()) {
-    cout << "栈顶的元素:" << s.top() << endl;
-    s.pop();
+  while (!q.empty()) {
+    cout << "对头元素:" << q.front() << endl;
+    cout << "对尾元素:" << q.back() << endl;
+    // 出队
+    q.pop();
   }
-  cout << "s size:" << s.size() << endl;
+  cout << "q size:" << q.size() << endl;
 }
 
 int main() {
